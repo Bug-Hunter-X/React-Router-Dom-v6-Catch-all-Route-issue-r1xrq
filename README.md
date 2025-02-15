@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router Dom v6 where the catch-all route `/*` overrides other routes.  The issue is that regardless of a valid route existing, the catch-all is always triggered. This prevents other routes from working correctly.  The solution demonstrates how to correctly implement a catch-all route using the `useLocation` hook to avoid this behavior.
